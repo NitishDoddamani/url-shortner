@@ -1,0 +1,20 @@
+# Node
+frontend/node_modules
+frontend/build
+
+# Python
+backend/__pycache__/
+backend/.venv/
+backend/venv/
+*.pyc
+
+# Env files
+.env
+
+# Docker volumes
+postgres_data
+redis_data
+
+# OS
+.DS_Store
+Thumbs.db
