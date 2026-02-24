@@ -48,10 +48,17 @@ function App() {
 
   const handleAnalytics = async () => {
     if (!shortCode.trim()) return toast.error("Please enter a short code!");
+    
+    // Strip full URL if user pastes it — extract just the code
+    let code = shortCode.trim();
+    if (code.includes("/")) {
+      code = code.split("/").pop();
+    }
+    
     setAnalyticsLoading(true);
     setAnalytics(null);
     try {
-      const res = await axios.get(`${API}/analytics/${shortCode}`);
+      const res = await axios.get(`${API}/analytics/${code}`);
       setAnalytics(res.data);
     } catch (err) {
       const msg = err.response?.data?.detail || "Short URL not found!";
@@ -306,7 +313,7 @@ function App() {
                 </div>
               </div>
             )}
-          </div>
+          </div>  
         )}
       </div>
 
