@@ -8,17 +8,17 @@ Shorten URLs, set custom aliases, track click analytics — all containerized wi
 ## 🖥️ Application Demo (UI Screenshots)
 
 📌 **1️⃣ Shorten URL — Home Page**
-<p align="center"> <img src="images/page1.png" width="80%" /> </p>
+<p align="center"> <img src="images/page1.jpg" width="80%" /> </p>
 
 Clean modern interface to paste long URLs, set a custom alias, and choose expiry.
 
 ✅ **2️⃣ Short URL Created**
-<p align="center"> <img src="images/page2.png" width="80%" /> </p>
+<p align="center"> <img src="images/page2.jpg" width="80%" /> </p>
 
 Instantly generates short URL with one-click copy, expiry date, and short code details.
 
 📊 **3️⃣ Analytics Dashboard**
-<p align="center"> <img src="images/page3.png" width="80%" /> </p>
+<p align="center"> <img src="images/page3.jpg" width="80%" /> </p>
 
 Real-time click analytics showing total clicks, last clicked time, expiry countdown, and original URL.
 
